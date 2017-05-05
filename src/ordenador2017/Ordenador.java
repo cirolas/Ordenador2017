@@ -26,14 +26,14 @@ private  static final int garantia=2;
       
       
     //metodos
-    void encenderOrdenador(){
-        if(ordenadorEncendido == true){
-            System.out.println("El ordenador ya está encendido");
-        }else{  //si no está encendido, encenderlo
-            ordenadorEncendido = true; 
-            System.out.println("\nEl ordenador se ha encendido");
-        }
-    }
+//    void encenderOrdenador(){
+//        if(ordenadorEncendido == true){
+//            System.out.println("El ordenador ya está encendido");
+//        }else{  //si no está encendido, encenderlo
+//            ordenadorEncendido = true; 
+//            System.out.println("\nEl ordenador se ha encendido");
+//        }
+//    }
     void mostrarEstado(){
         System.out.println("\nESTADO DEL ORDENADOR:" +"\nMarca  "+ marca +"\nProcesador  "+procesador+"\nPantalla  "+pantalla+"\n");
         if(ordenadorEncendido == true){
